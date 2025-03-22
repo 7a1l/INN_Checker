@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="600" Height="300" CanResize="False" WindowStartupLocation="CenterScreen"
+        x:Class="INN_Checker.MainWindow"
+        Title="Главное окно">
+    <Grid ColumnDefinitions="*, *" RowDefinitions="*, *">
+        <Button Grid.Column="0" Grid.Row="0" Width="230" HorizontalContentAlignment="Center" Name="GetDataFromAPIBtn" Content="Получить данные" VerticalAlignment="Center" HorizontalAlignment="Center" Click="GetDataFromAPIBtn_OnClick"/>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="" Name="DataFromAPITextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Grid.Column="0" Grid.Row="1" Width="230" HorizontalContentAlignment="Center" Name="WriteInDocBtn" Content="Отправить результат теста" VerticalAlignment="Center" HorizontalAlignment="Center" Click="WriteInDocBtn_OnClick"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="" Name="TestResultTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
