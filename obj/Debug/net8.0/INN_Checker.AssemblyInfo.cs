@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INN_Checker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f08ca8fbd2aa52c30bf56842f59ae00401599dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("INN_Checker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INN_Checker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -51,7 +51,7 @@ public partial class MainWindow : Window
         {
             if (text.Text.Contains(replacedText))
             {
-                text.Text = text.Text.Replace(replacedText, validationResult ? "Не успешно" : "Успешно");
+                text.Text = text.Text.Replace(replacedText, validationResult ? "Успешно" : "Не успешно");
             }
         }
     }

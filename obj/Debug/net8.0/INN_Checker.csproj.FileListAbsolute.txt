@@ -128,3 +128,4 @@ X:\INN_Checker\obj\Debug\net8.0\INN_Checker.pdb
 X:\INN_Checker\obj\Debug\net8.0\INN_Chec.E04921AF.Up2Date
 X:\INN_Checker\obj\Debug\net8.0\INN_Checker.genruntimeconfig.cache
 X:\INN_Checker\obj\Debug\net8.0\ref\INN_Checker.dll
+X:\INN_Checker\obj\Debug\net8.0\INN_Checker.sourcelink.json
